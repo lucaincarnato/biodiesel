@@ -1,13 +1,364 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/*START OF THE BLOCK*/ 
+/*Code to delete the scrollbars*/ 
+body::-webkit-scrollbar {
+  display: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  position: absolute;
+  background-color: #A4036F;
+  margin: 0px;
 }
+
+/*Code to fit the images in their background*/
+html, body, #root, #root>div { 
+  height: 100%;
+  width: 100%;
+}
+
+/*Code to fit the images in their background*/
+img {
+  width: 100%;
+  height: 100%; 
+  opacity: 0.6;
+  transition: 0.5s;
+}
+/*END OF THE BLOCK*/ 
+
+
+/*START OF THE BLOCK*/
+/* Code for the title and the button on Landing page */
+#title {
+  position: absolute;
+  width: 652px;
+  height: 198px;
+  left: 17.5%;
+  top: 16%;
+
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100px; 
+  line-height: 196px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #F1EED5;
+}
+
+#start {
+  position: absolute;
+  width: 12.5%;
+  height: 8%;
+  left: 17.5%;
+  top: 40%;
+  border-radius: 40px;
+  box-shadow: 10px 15px 25px;
+  border: 0px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  background-color: #F1EED5;
+  font-size: 18px;
+  transition: 0.5s;
+}
+
+#start:hover {
+  font-size: 25px;
+  width: 14%;
+  height: 9.5%;
+  left: 18%;
+  top: 39%;
+  box-shadow: 10px 15px 25px #000000;
+}
+
+#names {
+  position: absolute;
+  color: #F1EED5;
+  bottom: 2%;
+  right: 10px;
+  margin-right: 2px;
+  padding: 0px;
+  width: 400px;
+  height: 100px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  text-align: right;
+}
+ 
+/*Code to make smaller the distance between names*/
+h4 {
+  margin: 0px;
+}
+
+/*Code for the link to Immagine interattiva*/
+a {
+  text-decoration: none;
+  color: #F1EED5;
+}
+/*END OF THE BLOCK*/
+
+/*START OF THE BLOCK*/
+/*Code to make the images larger on hover*/
+#images:hover {
+  width: 105%;
+  height: 105%;
+}
+
+#container {
+  display: block;
+  position: absolute;
+}
+
+/*Code that center the topic's title into the div*/
+h2 {
+  text-align: center;
+  margin: 0px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 50%;
+  color: #F1EED5;
+  font-size: 30px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+}
+/*Codes for the index's topics*/
+#topic1 {
+  background-color: #F29E4C;
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  left: 0px;
+  top: 0px;
+  transition: 0.4s;
+}
+
+#topic2 {
+  background-color: #048BA8;
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  left: 50%;
+  top: 0px;
+  transition: 0.4s;
+}
+
+#topic3 {
+  background-color: #16DB93;
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  left: 0px;
+  top: 50%;
+  transition: 0.4s;
+}
+
+#topic4 {
+  background-color: #E3DE4F;
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  left: 50%;
+  top: 50%;
+  transition: 0.4s;
+}
+
+/*Codes for the container and the text at the center of the index*/
+#link-container {
+  position: fixed;
+  z-index: 999;
+  background-color: #A4036F;
+  color: #F1EED5;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  border: 0px;
+  position: absolute;
+  width: 20%;
+  height: 25%;
+  left: 40%;
+  top: 37.5%;
+  border-radius: 35px;
+  margin: 0px;
+  font-size: 22px;
+  transition: 0.4s;
+}
+
+#link-container:hover {
+  border-radius: 45px;
+  width: 25%;
+  height: 28%;
+  left: 38%;
+  top: 36%;
+  font-size: 26px;
+  
+}
+/*END OF THE BLOCK*/
+
+/*START OF THE BLOCK*/
+/*Code to make the background of Qualità its color*/
+#qualità {
+  height: 100%;
+  width: 100%;
+  background-color: #F29E4C;
+}
+
+/*Code to make the background of Impatto its color*/
+#impatto {
+  height: 100%;
+  width: 100%;
+  background-color: #048BA8;
+}
+
+/*Code to make the background of Produzione its color */
+#produzione {
+  height: 100%;
+  width: 100%;
+  background-color: #16DB93;
+}
+
+/*Code to make the background of Finanza its color*/
+#finanza {
+  height: 100%;
+  width: 100%;
+  background-color: #E3DE4F;
+}
+/*END OF THE BLOCK*/
+
+/*START OF THE BLOCL*/
+/*Code to make all the titles transparent buttons*/
+#topic-title {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden; 
+    color: #F1EED5;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    text-align: center;
+}
+
+#impatto-container {
+  position: absolute;
+  margin: 0%;
+  padding: 0%;
+  top: 0%;
+  width: 100%;
+  text-align: center;
+}
+
+#separator {
+  position: absolute;
+  margin: 0%;
+  background-color: #0C39A8;
+  width: 0.5%;
+  top: 110%;
+  height: 740%;
+  left: 50%;
+}
+/*END OF THE BLOCK*/
+
+/*START OF THE BLOCK*/
+/*Positioning the divs for the impatto ambientale*/
+#vantaggi {
+  top: 10%;
+  width: 40%;
+  height: 800%;
+  position: absolute;
+  left: 0%;
+}
+
+#svantaggi {
+  top: 10%;
+  width: 40%;
+  height: 800%;
+  position: absolute;
+  right: 0%;
+}
+
+#scroll{
+  overflow: scroll;
+}
+
+#scroll::-webkit-scrollbar {
+  display: none;
+}
+
+#van-text, #svan-text {
+  top: 20%;
+  text-align: center;
+  font-size: 40px;
+}
+
+.impatto-points{
+  top: 40%;
+  box-shadow: 10px 15px 25px;
+  position: absolute;
+  border: 0px;
+  border-radius: 40px;
+  width: 55%;
+  height: 16%;
+  background-color: #F1EED5;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  text-align: center;
+  transition: 0.4s;
+}
+
+.impatto-points:hover {
+  font-size: 20px;
+  width: 56.5%;
+  height: 21.5%;
+}
+
+#svan1, #svan2, #svan3 {
+  right: 22.5%;
+}
+
+#vant1, #vant2, #vant3, #vant4, #vant5, #vant6 {
+  left: 22.5%;
+}
+
+#vant2, #svan2 {
+  top: 70%;
+}
+
+#vant3, #svan3 {
+  top: 100%;
+}
+
+#vant4 {
+  top: 130%;
+}
+
+#vant5 {
+  top: 160%;
+}
+
+#vant6 {
+  top: 190%;
+}
+/*Font size 50px*/
+/*END OF THE BLOCK*/

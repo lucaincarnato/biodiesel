@@ -281,6 +281,7 @@ h2 {
 /*START OF THE BLOCK*/
 /*Positioning the divs for the impatto ambientale*/
 #vantaggi {
+  overflow: scroll;
   top: 10%;
   width: 40%;
   height: 800%;
@@ -289,6 +290,7 @@ h2 {
 }
 
 #svantaggi {
+  overflow: scroll;
   top: 10%;
   width: 40%;
   height: 800%;
@@ -296,11 +298,11 @@ h2 {
   right: 0%;
 }
 
-#scroll{
-  overflow: scroll;
+#vantaggi::-webkit-scrollbar {
+  display: none;
 }
 
-#scroll::-webkit-scrollbar {
+#svantaggi::-webkit-scrollbar {
   display: none;
 }
 

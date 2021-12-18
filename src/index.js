@@ -159,7 +159,7 @@ function Impatto(props){
         <div id="svantaggi">
           <h2 id="svan-text">Svantaggi</h2>
           <div id="scroll">
-            <button className="impatto-points" id="svan1">Emissioine di ossido di azoto</button>
+            <button className="impatto-points" id="svan1">Emissione di ossido di azoto</button>
             <button className="impatto-points" id="svan2">Intensificazione produzione oli vegetali</button>
             <button className="impatto-points" id="svan3">Aumento del prezzo delle materie prime</button>
           </div>

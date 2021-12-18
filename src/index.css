@@ -364,3 +364,51 @@ h2 {
 }
 /*Font size 50px*/
 /*END OF THE BLOCK*/
+
+/*START OF THE BLOCK*/
+#qualità {
+  position: absolute;
+  left: 0%;
+  width: 33%;
+  height: auto;
+}
+
+#specifiche {
+  position: absolute;
+  left: 33%;
+  width: 33%;
+  height: auto;
+}
+
+#proprietà {
+  position: absolute;
+  right: 0%;
+  width: 33%;
+  height: auto;
+}
+
+#left-line {
+  position: absolute;
+  background-color: #000000;
+  width: 0.5%;
+  height: 100%;
+  -webkit-transform: skewY(143deg);
+          transform: skewY(143deg);
+}
+
+#central-line {
+  position: absolute;
+  background-color: #000000;
+  width: 0.5%;
+  height: 100%;
+}
+
+#right-line {
+  position: absolute;
+  background-color: #000000;
+  width: 0.5%;
+  height: 100%;
+  -webkit-transform: skewY(44deg);
+          transform: skewY(44deg);
+}
+/*END OF THE BLOCK*/

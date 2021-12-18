@@ -124,6 +124,18 @@ function Qualità(props){
       <Background image={proprietà} id="image-qualità"/>
       <div id="impatto-container">
         <button id="topic-title" onClick={returning}>Qualità, specifiche e proprietà</button>
+        <div id="qualità">
+          <div id="left-line"></div>
+          <div id="qual-point"></div>
+        </div>
+        <div id="specifiche">
+          <div id="central-line"></div>
+          <div id="spec-point"></div>
+        </div>
+        <div id="proprietà">
+          <div id="right-line"></div>
+          <div id="propr-point"></div>
+        </div>
       </div>
     </div>
   )

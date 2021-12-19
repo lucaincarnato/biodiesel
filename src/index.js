@@ -120,21 +120,34 @@ function Qualità(props){
   }
 
   return(
-    <div id="qualità">
+    <div id="qualit">
       <Background image={proprietà} id="image-qualità"/>
       <div id="impatto-container">
         <button id="topic-title" onClick={returning}>Qualità, specifiche e proprietà</button>
         <div id="qualità">
           <div id="left-line"></div>
-          <div id="qual-point"></div>
+          <div id="points">
+            <button id="point1">Biocombustibile liquido trasparente</button>
+            <button id="point2">Estere dimetilico vegetale</button>
+            <button id="point3">Prodotto della transesterificazione dell'olio vegetale</button>
+          </div>
         </div>
         <div id="specifiche">
           <div id="central-line"></div>
-          <div id="spec-point"></div>
+          <div id="points">
+            <button id="point1">BD100 (biodiesel puro, il numero indica la percentuale di purezza)</button>
+            <button id="point2">Prodotto con la gascromatografia</button>
+          </div>
         </div>
         <div id="proprietà">
           <div id="right-line"></div>
-          <div id="propr-point"></div>
+          <div id="points">
+          <button id="point1">Energia rinnovabile</button>
+          <button id="point2">Possibile impiego nei motori a diesel se mescolato con il gasolio</button>
+          <button id="point3">Si incendia più velocemente per il maggior numero di cetano</button>
+          <button id="point4">Punto di fusione solitamente più alto di quello del gasolio</button>
+          <button id="point5">Prodotto biodegradabile</button>
+          </div>
         </div>
       </div>
     </div>

@@ -524,4 +524,14 @@ h2 {
 #points::-webkit-scrollbar {
   display: none;
 }
+
+/*Code for the gascromatografia*/
+#gascrom {
+  position: absolute;
+  width: 33%;
+  height: 700%;
+  top: 110%;
+  left: 33%;
+}
+
 /*END OF THE BLOCK*/

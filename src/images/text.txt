@@ -31,3 +31,6 @@ E' stato Scoperto che grazie all'estrazione dalle alghe del biodiesel, la resa a
 Il processo si divide in  tre principali passaggi.
 Gli ingredienti sono principalmente l'olio vegetale l'alcol e la soda caustica, che funge da catalizzatore.
 Il primo passaggio è la spremitura dei semi, che produrranno l'olio.
+Il secondo passaggio è la transesterificazione, ovvero la riduzione della viscosità dell'olio grezzo, che faciliterà l'utilizzo del combustibile nei motori.
+L'ultimo passaggio è quello del lavaggio del biodiesel per diminuire la presenza di residui che danneggerebbero i motori.  Dall'estrazione  inoltre non deriva solo il Biodiesel (80%) ma anche la glicerina (20%) la quale verrà utilizzata per la produzione di cosmetici e per altri impieghi. 
+In italia vi sono numerosi produttori di biodiesel quali Bakelite, Biofox, Estereco e Novaoil.

@@ -119,6 +119,12 @@ function Qualità(props){
     )
   }
 
+  function GC() {
+    ReactDOM.render(
+      <Gascromatografia />,
+      document.getElementById('root')
+    )
+  }
   return(
     <div id="qualit">
       <Background image={proprietà} id="image-qualità"/>
@@ -128,7 +134,7 @@ function Qualità(props){
           <div id="left-line"></div>
           <div id="points">
             <button id="point1">Biocombustibile liquido trasparente</button>
-            <button id="point2">Estere dimetilico vegetale</button>
+            <button id="point2">Estere dimetilico vegetale a lunga catena di acidi grassi</button>
             <button id="point3">Prodotto della transesterificazione dell'olio vegetale</button>
           </div>
         </div>
@@ -136,7 +142,7 @@ function Qualità(props){
           <div id="central-line"></div>
           <div id="points">
             <button id="point1">BD100 (biodiesel puro, il numero indica la percentuale di purezza)</button>
-            <button id="point2">Prodotto con la gascromatografia</button>
+            <button id="point2" onClick={GC}>Prodotto con la gascromatografia</button>
           </div>
         </div>
         <div id="proprietà">
@@ -148,6 +154,39 @@ function Qualità(props){
           <button id="point4">Punto di fusione solitamente più alto di quello del gasolio</button>
           <button id="point5">Prodotto biodegradabile</button>
           </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+//function for Gascromatografia
+function Gascromatografia(props){
+  function returning() {
+    ReactDOM.render(
+      <Qualità />,
+      document.getElementById('root')
+    )
+  }
+
+  //function to go to the Produzione page
+  function Prod(){
+    ReactDOM.render(
+      <Produzione />,
+      document.getElementById('root')
+    )
+  }
+
+  return (
+    <div id="qualit">
+      <Background image={proprietà} id="image-qualità"/>
+      <div id="impatto-container">
+        <button id="topic-title" onClick={returning}>Gascromatografia</button>
+        <div id="gascrom">
+          <button id="point1" onClick={Prod}>Rimozione glicerolo</button>
+          <button id="point2" onClick={Prod}>Rimozione catalizzatore</button>
+          <button id="point3" onClick={Prod}>Rimozione alcoli</button>
+          <button id="point4" onClick={Prod}>Rimozione acidi grassi</button>
         </div>
       </div>
     </div>

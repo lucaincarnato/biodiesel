@@ -370,21 +370,24 @@ h2 {
   position: absolute;
   left: 0%;
   width: 33%;
-  height: auto;
+  height: 800%;
+  top: 110%;
 }
 
 #specifiche {
   position: absolute;
   left: 33%;
   width: 33%;
-  height: auto;
+  height: 800%;
+  top: 110%;
 }
 
 #proprietà {
   position: absolute;
   right: 0%;
   width: 33%;
-  height: auto;
+  height: 800%;
+  top: 110%;
 }
 
 #left-line {

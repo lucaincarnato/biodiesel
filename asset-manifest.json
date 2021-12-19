@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/biodiesel/static/css/main.a8542868.css",
-    "main.js": "/biodiesel/static/js/main.8b22f84e.js",
+    "main.css": "/biodiesel/static/css/main.671a1e1e.css",
+    "main.js": "/biodiesel/static/js/main.92c80087.js",
     "static/media/Biodiesel.jpg": "/biodiesel/static/media/Biodiesel.fe04ff9704275803571b.jpg",
     "static/media/produzione.jpg": "/biodiesel/static/media/produzione.ce196155b9d9bf0bf651.jpg",
     "static/media/ambiente.jpg": "/biodiesel/static/media/ambiente.931722be475af7969ab9.jpg",
     "static/media/money.jpg": "/biodiesel/static/media/money.ccf3fd2da7c5c5fee54b.jpg",
     "static/media/Qualità.jpg": "/biodiesel/static/media/Qualità.2a727334d22df7af7656.jpg",
     "index.html": "/biodiesel/index.html",
-    "main.a8542868.css.map": "/biodiesel/static/css/main.a8542868.css.map",
-    "main.8b22f84e.js.map": "/biodiesel/static/js/main.8b22f84e.js.map"
+    "main.671a1e1e.css.map": "/biodiesel/static/css/main.671a1e1e.css.map",
+    "main.92c80087.js.map": "/biodiesel/static/js/main.92c80087.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8542868.css",
-    "static/js/main.8b22f84e.js"
+    "static/css/main.671a1e1e.css",
+    "static/js/main.92c80087.js"
   ]
 }

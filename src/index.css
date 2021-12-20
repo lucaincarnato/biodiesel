@@ -522,7 +522,7 @@ h2 {
   top: 30%;
 }
 
-#points::-webkit-scrollbar, #gascrom::-webkit-scrollbar, #central-content::-webkit-scrollbar {
+#points::-webkit-scrollbar, #gascrom::-webkit-scrollbar, #content::-webkit-scrollbar {
   display: none;
 }
 

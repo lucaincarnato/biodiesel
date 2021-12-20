@@ -269,26 +269,21 @@ function Finanza(props){
       <Background image={money} id="image-finanza"/>
       <div id="impatto-container">
         <button id="topic-title" onClick={returning}>Efficienza ed aspetti finanziari</button>
-        <div id="lateral-points">
+        <div id="content">
+          <div id="central-line"></div>
+          <button id="large-point1">Produzione attuale non sufficiente</button>
+          <button id="large-point2">Basso potere calorifero</button>
           <div id="left-hyphen"></div>
           <div id="right-hyphen"></div>
           <button id="lateral1">Meno potente a parità di rendimento</button>
           <button id="lateral2">Lontano dai 15/20 km/l del diesel</button>
+          <button id="large-point3">EROEI pari a 3</button>
           <div id="left-hyphen-down"></div>
           <div id="right-hyphen-down"></div>
-          <button>In un anno di coltivazione, ogni litro consumato ne sono prodotti 3</button>
-          <button>Basso rispetto all'eolico o al petrolio ma alto rispetto all'agricoltura</button>
-        </div>
-        <div id="content">
-          <div id="central-line"></div>
-          
-          <div id="points">
-            <button id="point1">Produzione attuale non sufficiente</button>
-            <button id="point2">Basso potere calorifero</button>
-            <button id="point3">EROEI pari a 3</button>
-            <div id="central-hyphen"></div>
-            <button id="bottom-btn">Misurato su impianti di olio di palma, pochi dati sulle alghe</button>
-          </div>
+          <button id="lateral3">In un anno di coltivazione, ogni litro consumato ne sono prodotti 3</button>
+          <button id="lateral4">Basso rispetto all'eolico o al petrolio ma alto rispetto all'agricoltura</button>
+          <div id="central-hyphen"></div>
+          <button id="bottom-btn">Misurato su impianti di olio di palma, pochi dati sulle alghe</button>
         </div>
       </div>
     </div>

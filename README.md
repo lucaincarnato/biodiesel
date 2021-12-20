@@ -6,7 +6,7 @@
 3. Produzione ed efficienza
 4. Efficienza ed aspetti economici
 
-### *Qualità, specifiche e proprietà
+### * Qualità, specifiche e proprietà
 Il biodiesel è un estere metilico vegetale (EMV), un combustibile liquido e trasparente ottenuto da oli vegetali. Il biodiesel puro è indicato anche come BD100, ma al posto di quel numero possiamo sostituire la percentuale di concentrazione in una miscela (ad esempio il 7% quando miscelato con il gasolio per essere inserito nei motori a diesel). 
 Per ottenere il biodiesel allo stato puro verifichiamo la presenza delle seguenti caratteristiche attraverso la gascromatografia:
 1. Completezza della reazione
@@ -21,7 +21,7 @@ Il punto di fusione del biodiesel è influenzato dalla quantità di esteri prese
 
 Dunque il biodiesel ha, solitamente, una maggior incendiabilità, una maggiore temperatura di fusione e una maggiore biodegradabilità del gasolio, rendendo il combustibile meno propenso ad emettere gas tossici e più sostenibile.
 
-### *Impatto ambientale
+### * Impatto ambientale
 Parlando di biodiesel non si può fare a meno di parlare di tutti quei vantaggi che, nella vita di tutti i giorni o a lungo termine, fanno bene a noi e al pianeta.
 
 Il biodiesel presenta una maggiore incendiabilità rispetto al gasolio tradizionale, ma a differenza di quest’ultimo non è esplosivo perché le lunghe catene carboniose (da 16 a 22 gruppi funzionali) ne alzano la temperatura di fusione, una condizione che rende la miscelazione una soluzione ottimale per garantire le prestazioni del motore riducendo al tempo stesso le emissioni di inquinanti. Inoltre il biodiesel è biodegradabile.
@@ -33,7 +33,7 @@ Il primo di questi svantaggi riguarda l’ossido di azoto (NOx), l’unica sosta
 
 L’altro grosso svantaggio del biodiesel riguarda l’intensificazione delle colture necessarie a produrre gli oli vegetali, che sottrarrebbero risorse al mercato alimentare provocando un aumento dei costi delle materie prime. Per soddisfare le esigenze del mercato energetico e di quello alimentare sarebbe necessario un elevato consumo del suolo e delle risorse da dedicare alla coltivazione, inclusa l’acqua necessaria all’irrigazione.
 
-### *Produzione e disponibilità
+### * Produzione e disponibilità
 Il biodiesel è un composto organico formato da esteri metilici vegetali (EMV). Un estere è un composto organico ottenuto dalla reazione di un alcol (o di un fenolo) con un acido carbossilico (-COOH) tramite un processo detto Esterificazione.
 
 Il biodiesel è ottenuto dalla transesterificazione, cioè dalla trasformazione di un estere in un altro facendolo reagire con metanolo (o etanolo) per ridurre la viscosità della miscela (spezzando i trigliceridi del grasso reagente), in modo da risultare non dannoso al motore.
@@ -52,7 +52,7 @@ Attualmente la produzione di biodiesel è in crescita ma questa nuova tecnologia
 
 In italia la produzione di biodiesel è contingentata a regolamentazioni del 2013 quando il governo Monti ha ridotto da 300.000 tonnellate a 200.000 tonnellate, valore di partenza del 2005. I maggiori produttori di biodiesel sono Bakelite, Biofox, Estereco e Novaoil. 
 
-### *Efficienza ed aspetti economici
+### * Efficienza ed aspetti economici
 Se da un lato gli attuali costi di produzione abbassano il costo di un barile di biodiesel, la produzione e l’assortimento di materie prime per la sua produzione non è ancora sufficiente a soppiantare la domanda di combustibili fossili. Gli ambientalisti sono infatti preoccupati che in un vicino futuro possa aumentare l’uso di pesticidi e uno sfruttamento del suolo smisurato per aumentare la produzione di oli vegetali.
 
 Il basso potere calorifico del biodiesel (quantità di energia ricavabile dalla conversione di una massa unitaria di un vettore a tps) lo rende meno performante degli altri carburanti fossili e, a parità di rendimento e prestazioni, ci vuole più carburante per far arrivare un motore a girare alla stessa velocità di uno alimentato a diesel. Di conseguenza la distanza percorribile da un veicolo alimentato a biodiesel è lontana dai 15-20 km/litro del diesel.

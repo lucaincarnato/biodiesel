@@ -95,11 +95,11 @@ function Landing(){
     <div id="main">
       <Background image={background}/>
       <div id="text-and-button">
-        <a href="https://it.wikipedia.org/wiki/Biodiesel" id="title" title="Immagine interattiva" target="_blank">Biodiesel</a>
+        <a href="https://github.com/lucaincarnato/biodiesel" id="title" title="Immagine interattiva" target="_blank">Biodiesel</a>
         <Start />
       </div>
       <div id="names">
-        <h4><a href="https://github.com/lucaincarnato/biodiesel" target="_blank">Creato</a> da:</h4>
+        <h4>Creato da:</h4>
         <h4>Bellingrath Paola</h4>
         <h4>Incarnato Luca Maria</h4>
         <h4>Passante Giammarco</h4>

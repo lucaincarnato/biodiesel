@@ -270,7 +270,6 @@ function Finanza(props){
       <div id="impatto-container">
         <button id="topic-title" onClick={returning}>Efficienza ed aspetti finanziari</button>
         <div id="content">
-          <div id="central-line"></div>
           <button id="large-point1">Produzione attuale non sufficiente</button>
           <button id="large-point2">Basso potere calorifero</button>
           <div id="left-hyphen"></div>

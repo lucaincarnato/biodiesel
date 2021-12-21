@@ -758,33 +758,42 @@ h2 {
   position: absolute;
   width: 100%;
   height: 750%;
-  overflow: visible;
+  overflow: scroll;
+}
+
+#prod::-webkit-scrollbar, #distr::-webkit-scrollbar, #produzione-content::-webkit-scrollbar {
+  display: none;
 }
 
 #prod {
   position: absolute;
-  height: 100%;
+  top: 25%;
+  height: 75%;
   width: 50%;
   left: 1%;
   margin: 0%;
+  overflow: scroll;
 }
 
 #distr {
   position: absolute;
-  height: 100%;
+  top: 25%;
+  height: 75%;
   width: 50%;
   right: 1%;
   margin: 0%;
+  overflow: scroll;
 }
 
 .prod-points{
-  top: 40%;
+  top: 0%;
   box-shadow: 10px 15px 25px;
   position: absolute;
+  left: 33.5%;
   border: 0px;
   border-radius: 40px;
   width: 35%;
-  height: 12%;
+  height: 16%;
   background-color: #F1EED5;
   font-family: Nunito;
   font-style: normal;
@@ -795,15 +804,15 @@ h2 {
 }
 
 .prod-points:hover {
-  font-size: 20px;
+  font-size: 17px;
   width: 38.5%;
-  height: 14.5%;
+  height: 17.5%;
 }
 
 #right {
   position: absolute;
   background-color: #000000;
-  right: 60%;
+  right: 30%;
   width: 0.25%;
   height: 25%;
   -webkit-transform: rotate(127deg);
@@ -813,10 +822,82 @@ h2 {
 #left {
   position: absolute;
   background-color: #000000;
-  left: 40%;
+  left: 30%;
   width: 0.25%;
   height: 25%;
   -webkit-transform: rotate(53deg);
           transform: rotate(53deg);
+}
+
+#prod-2, #distr-2 {
+  top: 25%;
+}
+
+#prod-3, #distr-3 {
+  top: 50%;
+}
+
+#prod-4, #distr-4 {
+  top: 75%;
+}
+
+#prod-5, #distr-5 {
+  top: 100%;
+}
+
+#prod-6, #distr-6 {
+  top: 125%;
+}
+
+#prod-7, #distr-7 {
+  top: 150%;
+}
+
+#distr-8 {
+  top: 175%;
+}
+
+#distr-9 {
+  top: 200%;
+}
+
+#t-esterif{
+  top: 0%;
+  box-shadow: 10px 15px 25px;
+  position: absolute;
+  left: 32%;
+  border: 0px;
+  border-radius: 40px;
+  width: 35%;
+  height: 16%;
+  background-color: #F1EED5;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  text-align: center;
+  transition: 0.4s;
+}
+
+#t-esterif:hover {
+  font-size: 17px;
+  width: 38.5%;
+  height: 17.5%;
+  left: 31%;
+}
+
+#transest, #ester {
+  position: absolute;
+  width: 70%;
+  height: 70%;
+  left: 15%;
+  top: 20%;
+  opacity: 1;
+}
+
+#transest:hover, #ester:hover {
+  width: 75%;
+  height: 75%;
+  left: 12.5%;
 }
 /*END OF THE BLOCK*/

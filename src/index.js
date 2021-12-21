@@ -6,6 +6,8 @@ import proprietà from './images/Qualità.jpg'
 import money from './images/money.jpg'
 import disponibilità from './images/produzione.jpg'
 import ambiente from './images/ambiente.jpg'
+import esterificazione from './images/ester.jpg'
+import transesterificazione from './images/transest.jpg'
 
 //Component for background's image
 function Background(props) {
@@ -142,7 +144,7 @@ function Qualità(props){
           <div id="central-line"></div>
           <div id="points">
             <button id="point1">BD100 (biodiesel puro, il numero indica la percentuale di purezza)</button>
-            <button id="point2" onClick={GC}>Prodotto con la gascromatografia</button>
+            <button id="point2" onClick={GC}>* Prodotto con la gascromatografia</button>
           </div>
         </div>
         <div id="proprietà">
@@ -183,10 +185,10 @@ function Gascromatografia(props){
       <div id="impatto-container">
         <button id="topic-title" onClick={returning}>Gascromatografia</button>
         <div id="gascrom">
-          <button id="point1" onClick={Prod}>Rimozione glicerolo</button>
-          <button id="point2" onClick={Prod}>Rimozione catalizzatore</button>
-          <button id="point3" onClick={Prod}>Rimozione alcoli</button>
-          <button id="point4" onClick={Prod}>Rimozione acidi grassi</button>
+          <button id="point1" onClick={Prod}>* Rimozione glicerolo</button>
+          <button id="point2" onClick={Prod}>* Rimozione catalizzatore</button>
+          <button id="point3" onClick={Prod}>* Rimozione alcoli</button>
+          <button id="point4" onClick={Prod}>* Rimozione acidi grassi</button>
         </div>
       </div>
     </div>
@@ -244,6 +246,20 @@ function Produzione(props) {
     )
   }
 
+  function esterificazione() {
+    ReactDOM.render(
+      <Esterificazione />,
+      document.getElementById('root')
+    )
+  }
+
+  function transesterificazione() {
+    ReactDOM.render(
+      <Transesterificazione />,
+      document.getElementById('root')
+    )
+  }
+
   return(
     <div id="produzione">
       <Background image={disponibilità} id="image-produzione"/>
@@ -252,25 +268,25 @@ function Produzione(props) {
         <div id="produzione-content">
           <div id="left"></div>
           <div id="prod">
-            <button className="prod-points">Miscela di esteri metilici vegetali (EMV)</button>
-            <button className="prod-points">Ottenibile tramite transesterificazione</button>
-            <button className="prod-points">Gli oli più usati sono:</button>
-            <button className="prod-points">- Oli vegetali vergini</button>
-            <button className="prod-points">- Oli vegetali di scarto</button>
-            <button className="prod-points">- Grassi animali</button>
-            <button className="prod-points">Si può produrre anche in casa</button>
+            <button id="prod-1" className="prod-points" onClick={esterificazione}>* Miscela di esteri metilici vegetali (EMV)</button>
+            <button id="prod-2" className="prod-points" onClick={transesterificazione}>* Ottenibile tramite transesterificazione</button>
+            <button id="prod-3" className="prod-points">Gli oli più usati sono:</button>
+            <button id="prod-4" className="prod-points">- Oli vegetali vergini</button>
+            <button id="prod-5" className="prod-points">- Oli vegetali di scarto</button>
+            <button id="prod-6" className="prod-points">- Grassi animali</button>
+            <button id="prod-7" className="prod-points">Si può produrre anche in casa</button>
           </div>
           <div id="right"></div>
           <div id="distr">
-            <button className="prod-points">Produzione di massa in crescita</button>
-            <button className="prod-points">Nonostante i costi ancora alti per uso commerciale</button>
-            <button className="prod-points">In Italia la produzione è aumentata tra 2005 e 2013 del 50%</button>
-            <button className="prod-points">Per poi tornare ai valori del 2005 con l'Amministrazione Monti</button>
-            <button className="prod-points">Maggiori produttori in Italia:</button>
-            <button className="prod-points">- Bakelite</button>
-            <button className="prod-points">- Biofox</button>
-            <button className="prod-points">- Estereco</button>
-            <button className="prod-points">- Novaoil</button>
+            <button id="distr-1" className="prod-points">Produzione di massa in crescita</button>
+            <button id="distr-2" className="prod-points">Nonostante i costi ancora alti per uso commerciale</button>
+            <button id="distr-3" className="prod-points">In Italia la produzione è aumentata tra 2005 e 2013 del 50%</button>
+            <button id="distr-4" className="prod-points">Per poi tornare ai valori del 2005 con l'Amministrazione Monti</button>
+            <button id="distr-5" className="prod-points">Maggiori produttori in Italia:</button>
+            <button id="distr-6" className="prod-points">- Bakelite</button>
+            <button id="distr-7" className="prod-points">- Biofox</button>
+            <button id="distr-8" className="prod-points">- Estereco</button>
+            <button id="distr-9" className="prod-points">- Novaoil</button>
           </div>
         </div>
       </div>
@@ -313,6 +329,50 @@ function Finanza(props){
   )
 }
 
+//functions for the added pages of esterificazione and transesterificazione
+function Esterificazione(props) {
+  function returning() {
+    ReactDOM.render(
+      <Produzione />,
+      document.getElementById('root')
+    )
+  }
+
+  return(
+    <div id="produzione">
+      <Background image={disponibilità} id="image-produzione"/>
+      <div id="impatto-container">
+        <button id="topic-title" onClick={returning}>Esterificazione</button>
+        <div id="produzione-content">
+          <button id="t-esterif">Reazione di un alcol con un acido carbossilico per produrre un estere</button>
+          <img src={esterificazione} id="ester" alt=""/>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+function Transesterificazione(props) {
+  function returning() {
+    ReactDOM.render(
+      <Produzione />,
+      document.getElementById('root')
+    )
+  }
+
+  return(
+    <div id="produzione">
+      <Background image={disponibilità} id="image-produzione"/>
+      <div id="impatto-container">
+        <button id="topic-title" onClick={returning}>Transesterificazione</button>
+        <div id="produzione-content">
+          <button id="t-esterif">Reazione di un estere con metilene per produrre un estere meno viscoso</button>
+          <img src={transesterificazione} id="transest" alt=""/>
+        </div>
+      </div>
+    </div>
+  )
+}
 
 ReactDOM.render(
   <Landing />,

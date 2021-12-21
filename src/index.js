@@ -249,6 +249,30 @@ function Produzione(props) {
       <Background image={disponibilità} id="image-produzione"/>
       <div id="impatto-container">
         <button id="topic-title" onClick={returning}>Produzione e disponibilità</button>
+        <div id="produzione-content">
+          <div id="left"></div>
+          <div id="prod">
+            <button className="prod-points">Miscela di esteri metilici vegetali (EMV)</button>
+            <button className="prod-points">Ottenibile tramite transesterificazione</button>
+            <button className="prod-points">Gli oli più usati sono:</button>
+            <button className="prod-points">- Oli vegetali vergini</button>
+            <button className="prod-points">- Oli vegetali di scarto</button>
+            <button className="prod-points">- Grassi animali</button>
+            <button className="prod-points">Si può produrre anche in casa</button>
+          </div>
+          <div id="right"></div>
+          <div id="distr">
+            <button className="prod-points">Produzione di massa in crescita</button>
+            <button className="prod-points">Nonostante i costi ancora alti per uso commerciale</button>
+            <button className="prod-points">In Italia la produzione è aumentata tra 2005 e 2013 del 50%</button>
+            <button className="prod-points">Per poi tornare ai valori del 2005 con l'Amministrazione Monti</button>
+            <button className="prod-points">Maggiori produttori in Italia:</button>
+            <button className="prod-points">- Bakelite</button>
+            <button className="prod-points">- Biofox</button>
+            <button className="prod-points">- Estereco</button>
+            <button className="prod-points">- Novaoil</button>
+          </div>
+        </div>
       </div>
     </div>
   )
